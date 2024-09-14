@@ -11,7 +11,7 @@ import numpy as np
 # Cargar las variables de entorno desde el archivo .env
 load_dotenv()
 
-TOPIC_NAME = 'transactions_jovany_cely' # Nombre del topic de Kafka
+TOPIC_NAME = 'transactions_kafka' # Nombre del topic de Kafka
 
 # Configuración del cliente de administración de Kafka para la creación de topics
 admin_client = AdminClient({
